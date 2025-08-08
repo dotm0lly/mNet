@@ -1,0 +1,46 @@
+/*general info*/
+body {
+    background-color: black;
+}
+h1 {
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+h2 {
+    color: aliceblue;
+    font-family: fantasy;
+}
+h4 {
+    color: aliceblue;
+    font-family: monospace;
+}
+a {
+    color: rgb(255, 74, 219);
+    font-family: monospace;
+}
+
+/* ---ICONS--- */
+.spotify {
+    display:block;
+    zoom: 7%;
+}
+.aMusic {
+    display: block;
+    zoom: 7%;
+}
+.SC {
+    display: block;
+    zoom: 7%;
+}
+.BC {
+    display: block;
+    zoom: 7%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1em;
+}
