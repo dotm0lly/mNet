@@ -34,38 +34,38 @@ a {
 /* ---ICONS--- */
 .spotify {
     display:block;
-    zoom: 40%;
+    zoom: 35%;
 }
 .aMusic {
     display: block;
-    zoom: 40%;
+    zoom: 35%;
 }
 .SC {
     display: block;
-    zoom: 40%;
+    zoom: 35%;
 }
 .BC {
     display: block;
-    zoom: 40%;
+    zoom: 35%;
 }
 .tiktok {
     display: block;
-    zoom: 40%;
+    zoom: 35%;
     margin: 0%;
 }
 .insta {
     display: block;
-    zoom: 40%;
+    zoom: 35%;
     margin: 0%;
 }
 .discord {
     display: block;
-    zoom: 40%;
+    zoom: 35%;
     margin: 0%;
 }
 .YT {
     display: block;
-    zoom: 40%;
+    zoom: 35%;
     margin: 0%;
 }
 
@@ -90,13 +90,12 @@ a {
     margin-right: 15%;
 }
 
-
-
 .dollar {
     display: block;
     zoom: 30%;
     float: right;
-    margin-right: 20%;
+    margin-right: 5%;
+    margin-left: -20%;
     margin-top: -7%;
 }
 
@@ -104,8 +103,10 @@ a {
     display: block;
     zoom: 30%;
     float: left;
-    margin-left: 20%;
+    margin-left: 5%;
+    margin-right: -20%;
     margin-top: -7%;
+    
 }
 
 @media (max-width: 600px) {
