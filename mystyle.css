@@ -1,7 +1,7 @@
 /*general info*/
 body {
     flex-direction: column;
-    background-image: url(images/starryBackground.jpg);
+    background-color: black;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
