@@ -10,7 +10,7 @@ body {
 }
 h1 {
     color: aliceblue;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h2 {
     color: aliceblue;
@@ -25,6 +25,11 @@ a {
     font-family: monospace;
 }
 
+.wrapper-main {
+    width: 1000px;
+    padding: 100px 0;
+    margin: 0 auto;
+}
 
 /* ---ICONS--- */
 .spotify {
@@ -64,6 +69,15 @@ a {
     margin: 0%;
 }
 
+    
+
+.banners {
+    transform: translateY(100px);
+    position: sticky;
+    top: 3%;
+    margin-top: 0%;
+    
+}
 
 
 .container {
@@ -72,6 +86,8 @@ a {
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 1em;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 
@@ -80,7 +96,7 @@ a {
     display: block;
     zoom: 30%;
     float: right;
-    margin-right: 12%;
+    margin-right: 20%;
     margin-top: -7%;
 }
 
@@ -88,6 +104,12 @@ a {
     display: block;
     zoom: 30%;
     float: left;
-    margin-left: 12%;
+    margin-left: 20%;
     margin-top: -7%;
+}
+
+@media (max-width: 600px) {
+    .wrapper-main {
+        width: 100%;
+    }
 }
